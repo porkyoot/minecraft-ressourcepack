@@ -1,0 +1,140 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/sneakers",
+		"particle": "item/sneakers"
+	},
+	"elements": [
+		{
+			"name": "sole_back",
+			"from": [7.5, 0, 9],
+			"to": [12.5, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [0, 11, 5, 13], "texture": "#0"},
+				"east": {"uv": [0, 6, 2, 8], "texture": "#0"},
+				"south": {"uv": [0, 8, 5, 10], "texture": "#0"},
+				"west": {"uv": [3, 6, 5, 8], "texture": "#0"},
+				"up": {"uv": [5, 16, 0, 14], "texture": "#0"},
+				"down": {"uv": [5, 10, 0, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sole_front",
+			"from": [7.5, 0, 5],
+			"to": [12.5, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [7, 15, 12, 16], "texture": "#0"},
+				"east": {"uv": [5, 2, 8, 3], "texture": "#0"},
+				"south": {"uv": [0, 13, 5, 14], "texture": "#0"},
+				"west": {"uv": [5, 3, 8, 4], "texture": "#0"},
+				"up": {"uv": [5, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 3, 0, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cap",
+			"from": [8, -0.5, 6.25],
+			"to": [12, 1.5, 11.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [8, 0, 12, 2], "texture": "#0"},
+				"east": {"uv": [8, 10, 12, 12], "texture": "#0"},
+				"south": {"uv": [8, 6, 12, 8], "texture": "#0"},
+				"west": {"uv": [8, 8, 12, 10], "texture": "#0"},
+				"up": {"uv": [8, 1, 12, 6], "texture": "#0"},
+				"down": {"uv": [8, 10, 12, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sole_back",
+			"from": [2.5, 0, 9],
+			"to": [7.5, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [0, 11, 5, 13], "texture": "#0"},
+				"east": {"uv": [0, 6, 2, 8], "texture": "#0"},
+				"south": {"uv": [0, 8, 5, 10], "texture": "#0"},
+				"west": {"uv": [3, 6, 5, 8], "texture": "#0"},
+				"up": {"uv": [5, 16, 0, 14], "texture": "#0"},
+				"down": {"uv": [5, 10, 0, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sole_front",
+			"from": [2.5, 0, 5],
+			"to": [7.5, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [7, 15, 12, 16], "texture": "#0"},
+				"east": {"uv": [5, 2, 8, 3], "texture": "#0"},
+				"south": {"uv": [0, 13, 5, 14], "texture": "#0"},
+				"west": {"uv": [5, 3, 8, 4], "texture": "#0"},
+				"up": {"uv": [5, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 3, 0, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cap",
+			"from": [3, -0.5, 6.25],
+			"to": [7, 1.5, 11.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [2.5, 0, 5]},
+			"faces": {
+				"north": {"uv": [8, 0, 12, 2], "texture": "#0"},
+				"east": {"uv": [8, 10, 12, 12], "texture": "#0"},
+				"south": {"uv": [8, 6, 12, 8], "texture": "#0"},
+				"west": {"uv": [8, 8, 12, 10], "texture": "#0"},
+				"up": {"uv": [8, 1, 12, 6], "texture": "#0"},
+				"down": {"uv": [8, 10, 12, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 5, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 5, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 8, 6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 8, 6]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [45, -180, 0],
+			"translation": [0, 4, 0]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0.75, 0, -16],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "right_shoe",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		},
+		{
+			"name": "left_shoe",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [3, 4, 5]
+		}
+	]
+}
