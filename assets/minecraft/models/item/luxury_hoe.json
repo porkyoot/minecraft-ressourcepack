@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "item/ocams_razor"
+		"layer0": "item/luxury_hoe"
 	}
 }
