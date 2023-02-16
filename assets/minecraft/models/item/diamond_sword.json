@@ -5,6 +5,7 @@
   },
   "overrides": [
         { "predicate": {"custom_model_data": 1}, "model": "item/sunset_sword"},
+        { "predicate": {"custom_model_data": 2}, "model": "item/vaporwave_sword"},
         { "predicate": {"custom_model_data": 42}, "model": "item/ocams_razor"}
   ]
 }
